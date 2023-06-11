@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import backgroundImg from '../../public/background2.jpg';
+import backgroundImg from '../../public/background.jpg';
 import schoolLogo from '../../public/logo.png';
 
 const HomePage = () => {
@@ -18,7 +18,7 @@ const HomePage = () => {
 
       <div className="relative z-10 flex flex-col items-center justify-center text-white">
         <div className="rounded-full bg-white bg-opacity-40 p-16">
-          <Image src={schoolLogo} alt="School Logo" width={100} height={100} />
+          <Image src={schoolLogo} alt="School Logo" width={500} height={500} />
         </div>
         <h1 className="text-4xl font-bold mt-8">Golden Jubilee Celebration</h1>
       </div>
