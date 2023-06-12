@@ -14,7 +14,7 @@ const HomePage = () => {
           alt="Background Image"
           layout="fill"
           objectFit="cover"
-          objectPosition="center"
+          objectPosition="top"
         />
       </div>
 
