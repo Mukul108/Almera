@@ -7,7 +7,7 @@ const HomePage = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-black overflow-y-scroll">
       <div
         className="absolute top-0 left-0 w-full h-full z-0"
-        style={{ filter: 'blur(8px)' }}
+        
       >
         <Image
           src={backgroundImg}
