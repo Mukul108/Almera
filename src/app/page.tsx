@@ -21,7 +21,7 @@ const HomePage = () => {
       <div className="relative z-10 flex flex-col items-center justify-center text-white">
         <div className="rounded-full bg-white bg-opacity-30 p-24 flex items-center justify-center">
           <div className="mr-8">
-            <Image src={schoolLogo} alt="School Logo" width={400} height={400} />
+            <Image src={schoolLogo} alt="School Logo" width={300} height={300} />
           </div>
           <div>
           <h1 className="text-2xl font-bold text-golden font-forum">
