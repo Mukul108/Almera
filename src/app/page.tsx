@@ -23,13 +23,7 @@ const HomePage = () => {
         <h1 className="text-4xl font-bold mt-8">Golden Jubilee Celebration</h1>
       </div>
 
-      <div className="bg-white bg-opacity-20 p-8 rounded-lg mt-8">
-        <h2 className="text-2xl font-semibold">Event Details</h2>
-        <p className="mt-4">Date: [Insert Date]</p>
-        <p className="mt-2">Time: [Insert Time]</p>
-        <p className="mt-2">Location: [Insert Location]</p>
-      </div>
-
+      
       <button className="bg-white text-black px-8 py-4 rounded-lg mt-8">
         Register Now
       </button>
