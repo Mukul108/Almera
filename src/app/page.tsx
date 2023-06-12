@@ -19,13 +19,13 @@ const HomePage = () => {
       </div>
 
       <div className="relative z-10 flex flex-col items-center justify-center text-white">
-        <div className="rounded-full bg-white bg-opacity-60 p-24 flex items-center justify-center">
+        <div className="rounded-full bg-white bg-opacity-40 p-24 flex items-center justify-center">
           <div className="mr-8">
-            <Image src={schoolLogo} alt="School Logo" width={250} height={250} />
+            <Image src={schoolLogo} alt="School Logo" width={300} height={300} />
           </div>
           <div>
-            <h1 className="text-4xl font-bold">Golden Jubilee Celebration</h1>
-            <p className="text-lg mt-4">50 years of success</p>
+            <h1 className="text-6xl font-bold">Golden Jubilee Celebration</h1>
+            <p className="text-lg mt-6">50 years of success</p>
           </div>
         </div>
       </div>
