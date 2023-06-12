@@ -19,7 +19,7 @@ const HomePage = () => {
       </div>
 
       <div className="relative z-10 flex flex-col items-center justify-center text-white">
-        <div className="bg-white bg-opacity-30 p-24 flex items-center justify-center rounded-2xl">
+        <div className="bg-white bg-opacity-30 p-18 flex items-center justify-center rounded-4xl">
           <div className="mr-8">
             <Image src={schoolLogo} alt="School Logo" width={350} height={350} />
           </div>
