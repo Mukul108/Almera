@@ -25,13 +25,13 @@ const HomePage = () => {
           </div>
           <div>
           
-          <h1 className="text-center text-8xl font-bold text-golden font-Forum">
+          <h1 className="text-center text-10xl font-bold text-golden font-Forum">
               Golden 
             </h1>
-          <h2 className="text-center text-8xl font-bold text-golden font-Forum">
+          <h2 className="text-center text-10xl font-bold text-golden font-Forum">
               jubilee
             </h2>
-          <h3 className="text-center text-8xl font-bold text-golden font-Forum">
+          <h3 className="text-center text-10xl font-bold text-golden font-Forum">
               celebration
             </h3>  
             <h4 className="text-center text-2xl text-golden font-normal ">Celebrating 50 years of success</h4>
