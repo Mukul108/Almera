@@ -36,7 +36,7 @@ const HomePage = () => {
             </h3>  
             <h4 className="text-center text-2xl text-golden font-normal ">Celebrating 50 years of success</h4>
           </div>
-          <h5 className="text-bottom text-3xl text-white font-thin">MOTILAL NEHRU SCHOOL OF SPORTS</h5>
+          
         </div>
         
       </div>
