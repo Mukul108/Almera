@@ -12,7 +12,7 @@ const HomePage = () => {
         <Image
           src={backgroundImg}
           alt="Background Image"
-          layout="fill"
+          layout="full"
           objectFit="cover"
           objectPosition="top"
         />
