@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import backgroundImg from '../../public/background.jpg';
 import schoolLogo from '../../public/logo.png';
+import Header from './header';
 
 const HomePage = () => {
   return (
@@ -12,11 +13,13 @@ const HomePage = () => {
           layout="full"
           objectFit="cover"
           objectPosition="top"
+          className="filter brightness-50 blur-sm"
         />
       </div>
-
-      <div className="relative z-10 flex flex-col items-center justify-center text-white">
-        <div className="bg-white bg-opacity-20 p-24 flex items-center justify-center rounded-2xl">
+      
+      <div className="relative z-10 flex flex-col items-center justify-center text-white mt-8">
+        <Header />
+        <div className="bg-white bg-opacity-20 p-24 flex items-center justify-center rounded-2xl mt-8">
           <div className="mr-8">
             <Image src={schoolLogo} alt="School Logo" width={400} height={400} />
           </div>
@@ -41,6 +44,14 @@ const HomePage = () => {
               RAI SONIPAT HARYANA - 131029
             </h6>
             <hr className="w-100 border border-golden my-4" />
+          </div>
+        </div>
+      </div>
+
+      <div className="relative z-10 flex flex-col items-center justify-center text-white mt-8">
+        <div className="bg-white bg-opacity-20 p-24 flex items-center justify-center rounded-2xl">
+          <div className="text-center text-8xl font-Forum">
+            Event Details
           </div>
         </div>
       </div>
