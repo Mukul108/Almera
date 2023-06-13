@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import schoolLogo from '../../public/logo.png';
 import backgroundImg from '../../public/background.jpg';
+import schoolLogo from '../../public/logo.png';
 
 const HomePage = () => {
   return (
@@ -9,7 +9,7 @@ const HomePage = () => {
         <Image
           src={backgroundImg}
           alt="Background Image"
-          layout="fill"
+          layout="full"
           objectFit="cover"
           objectPosition="top"
         />
@@ -21,27 +21,6 @@ const HomePage = () => {
             <Image src={schoolLogo} alt="School Logo" width={400} height={400} />
           </div>
           <div>
-<<<<<<< HEAD
-            <h1 className="text-center text-6xl font-bold text-golden font-Forum">
-              Golden
-            </h1>
-            <h2 className="text-center text-6xl font-bold text-golden font-Forum">
-              Jubilee
-            </h2>
-            <h3 className="text-center text-6xl font-bold text-golden font-Forum">
-              Celebration
-            </h3>
-            <h4 className="text-center text-xl text-golden font-normal">Celebrating 50 years of success</h4>
-          </div>
-        </div>
-
-        <a
-          href="invitation-form.html"
-          className="mt-8 px-6 py-4 bg-golden text-white font-bold text-lg rounded-full hover:bg-yellow-400 transition duration-300 ease-in-out"
-        >
-          Submit Invitation Form
-        </a>
-=======
             <h1 className="text-center text-8xl font-Forum text-golden">
               GOLDEN
             </h1>
@@ -64,7 +43,6 @@ const HomePage = () => {
             <hr className="w-100 border border-golden my-4" />
           </div>
         </div>
->>>>>>> 43eafd5 (lil cng)
       </div>
     </div>
   );
