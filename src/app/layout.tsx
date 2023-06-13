@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Golden Jubilee Clebration',
-  description: 'Mnss rai is celebrating 50 years of success',
+  description: 'Mnss rai is celebrating 50 years of success. ',
 }
 
 export default function RootLayout({
