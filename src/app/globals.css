@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +27,23 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+h1 {
+  color: rgb(228, 200, 124);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+  color: rgb(228, 200, 124);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+  color: rgb(228, 200, 124);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4 {
+  color: rgb(36, 35, 33);
+  font-family: Forum;
 }
