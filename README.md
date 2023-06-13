@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is webpage for the event which going to held at Mnss rai sports school sonipat haryana on the occassion of golden jubilee celebration.
 
 ## Getting Started
 

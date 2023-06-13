@@ -13,7 +13,11 @@ const HomePage = () => {
             alt="Background Image"
             layout="fill"
             objectFit="cover"
+<<<<<<< HEAD
             className="filter brightness-50 blurr-sm"
+=======
+            className="filter brightness-50 "
+>>>>>>> refs/remotes/origin/master
           />
         </div>
         <div className="relative z-10 flex flex-col items-center justify-center text-white mt-8">
