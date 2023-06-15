@@ -9,9 +9,11 @@ const Header = () => {
           Event Details
         </button>
       </Link>
-      <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
-        Highlights
-      </button>
+      <Link href="#highlights" passHref>
+        <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
+          Highlights
+        </button>
+      </Link>
       <a href="https://lu.ma/ch5ykyrt" target="_blank" rel="noopener noreferrer">
         <button className="mb-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
           Register

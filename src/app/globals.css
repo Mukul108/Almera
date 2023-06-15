@@ -4,7 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -33,6 +32,7 @@ h1 {
   color: rgb(228, 200, 124);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 h2 {
   color: rgb(228, 200, 124);
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -55,3 +55,8 @@ button {
 button:hover {
   color: rgb(105, 89, 37);
 }
+
+.container-margin {
+  margin: 0.5rem;
+}
+
