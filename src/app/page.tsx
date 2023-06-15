@@ -62,7 +62,7 @@ const HomePage = () => {
                 Principals  Desk
               </h1>
               <br /><br />
-               <p className="text-xl font-Forum text-white">I, Principal & Director Col. Ashok Mor &#40;Retd.&#41;, along with the esteemed staff and vibrant student community cordially invites you to the Golden Jubilee Celebration of Mnss, Rai marking 50 glorious years of academic excellence from 1973 to 2023. We extend our heartfelt invitation to commemorate this momentous occasion. Join us on 2nd July 2023 for a nostalgic day filled with captivating events, mesmerizing performances, heartwarming reunions, and a majestic spectacle showcasing our exceptional achievements. Kindly Rigestration Form. Let's honor the cherished past, celebrate the present, and embrace the promising future together!</p>
+               <p className="text-xl font-Forum text-white">I, Principal & Director Col. Ashok Mor &#40;Retd.&#41;, along with the esteemed staff and vibrant student community cordially invites you to the Golden Jubilee Celebration of Mnss, Rai marking 50 glorious years of academic excellence from 1973 to 2023. We extend our heartfelt invitation to commemorate this momentous occasion. Join us on 2nd July 2023 for a nostalgic day filled with captivating events, mesmerizing performances, heartwarming reunions, and a majestic spectacle showcasing our exceptional achievements. Kindly Rigestration Form. Let's honor the cherished past, celebrate the present, and embrace the promising future together.</p>
     
             </div>
           </div>
