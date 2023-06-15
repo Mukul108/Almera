@@ -9,17 +9,17 @@ const Highlights = () => {
       <div className="mt-8">
         <h2 className="text-2xl font-bold">Guest Speakers:</h2>
         <ul className="list-disc list-inside mt-4">
-          <li>John Doe</li>
-          <li>Jane Smith</li>
-          <li>Michael Johnson</li>
+          <li>President of India, Droupadi Murmu</li>
+          <li>Chief Minister of Haryana, Manohar Lal Khattar</li>
+          <li>Governer of Hariyana, Bandaru Dattatreya</li>
+          <li>Sports Minister of Haryana, Sandeep Singh</li>
         </ul>
       </div>
       <div className="mt-8">
         <h2 className="text-2xl font-bold">Special Performances:</h2>
         <ul className="list-disc list-inside mt-4">
-          <li>Dance by ABC Dance Crew</li>
-          <li>Singing performance by XYZ Band</li>
-          <li>Magic show by David Copperfield</li>
+          <li>Dance by MNSS Dance Crew</li>
+          <li>Acrobatics</li>
         </ul>
       </div>
       <div className="mt-8">
