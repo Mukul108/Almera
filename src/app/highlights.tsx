@@ -7,11 +7,13 @@ const Highlights = () => {
         Highlights
       </h1>
       <div className="mt-8">
-        <h2 className="text-2xl font-bold">Guests:</h2>
+        <h2 className="text-2xl font-bold">Guests of Honor:</h2>
         <ul className="list-disc list-inside mt-4">
           <li>Chief Minister of Haryana, Manohar Lal Khattar</li>
-          <li>Governer of Hariyana, Bandaru Dattatreya</li>
-          <li>Sports Minister of Haryana, Sandeep Singh</li>
+          <li>Governer of Haryana, Bandaru Dattatreya</li>
+          <li>Vice Chancellor of Sports Univesity of Haryana,Rai</li>
+          <li>Ramesh Kaushik,MP,Sonipat</li>
+          <li>Mohan Singh Badoli,MLA,Rai</li>
         </ul>
       </div>
       <div className="mt-8">
