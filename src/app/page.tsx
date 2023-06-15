@@ -55,6 +55,18 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+        <div id="Principals Desk" className="relative z-10 flex flex-col items-center justify-center text-white mt-8 container-margin">
+          <div className="bg-white bg-opacity-20 p-6 sm:p-24 flex items-center justify-center rounded-2xl mt-8 mx-4 container-size">
+            <div className="text-center">
+              <h1 className="text-4xl sm:text-8xl font-Forum text-golden">
+                Principals  Desk
+              </h1>
+              <br /><br />
+               <p className="text-xl font-Forum text-white">I, Principal & Director Col. Ashok Mor &#40;Retd.&#41;, along with the esteemed staff and vibrant student community cordially invites you to the Golden Jubilee Celebration of Mnss, Rai marking 50 glorious years of academic excellence from 1973 to 2023. We extend our heartfelt invitation to commemorate this momentous occasion. Join us on 2nd July 2023 for a nostalgic day filled with captivating events, mesmerizing performances, heartwarming reunions, and a majestic spectacle showcasing our exceptional achievements. Kindly Rigestration Form. Let's honor the cherished past, celebrate the present, and embrace the promising future together!</p>
+    
+            </div>
+          </div>
+        </div>
 
         <div id="event-details" className="relative z-10 flex flex-col items-center justify-center text-white mt-8 container-margin">
           <div className="bg-white bg-opacity-20 p-6 sm:p-24 flex items-center justify-center rounded-2xl mt-8 mx-4 container-size">
@@ -85,18 +97,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <div id="Principals Desk" className="relative z-10 flex flex-col items-center justify-center text-white mt-8 container-margin">
-          <div className="bg-white bg-opacity-20 p-6 sm:p-24 flex items-center justify-center rounded-2xl mt-8 mx-4 container-size">
-            <div className="text-center">
-              <h1 className="text-4xl sm:text-8xl font-Forum text-golden">
-                Principals  Desk
-              </h1>
-              <br /><br />
-               <p className="text-xl font-Forum text-white">I, Principal & Director Col. Ashok Mor &#40;Retd.&#41;, along with the esteemed staff and vibrant student community cordially invites you to the Golden Jubilee Celebration of Mnss, Rai marking 50 glorious years of academic excellence from 1973 to 2023. We extend our heartfelt invitation to commemorate this momentous occasion. Join us on 2nd July 2023 for a nostalgic day filled with captivating events, mesmerizing performances, heartwarming reunions, and a majestic spectacle showcasing our exceptional achievements. Kindly Rigestration Form. Let's honor the cherished past, celebrate the present, and embrace the promising future together!</p>
-    
-            </div>
-          </div>
-        </div>
+        
 
         {/* <div className="relative z-10 flex flex-col items-center justify-center text-white mt-8 container-margin">
           <div className="bg-white bg-opacity-20 p-6 sm:p-24 rounded-2xl mt-8 mx-4 container-size">

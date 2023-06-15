@@ -9,9 +9,9 @@ const Highlights = () => {
       <div className="mt-8">
         <h2 className="text-2xl font-bold">Guests of Honor:</h2>
         <ul className="list-disc list-inside mt-4">
-          <li>Chief Minister of Haryana, Manohar Lal Khattar</li>
-          <li>Governer of Haryana, Bandaru Dattatreya</li>
-          <li>Vice Chancellor of Sports Univesity of Haryana,Rai</li>
+          <li>Hon'ble Governer of Haryana, Bandaru Dattatreya</li>
+          <li>Chief Minister of Haryana, Sh. Manohar Lal </li>
+          <li>Vice Chancellor of Sports Univesity of Haryana, S.S Deswal </li>
           <li>Ramesh Kaushik,MP,Sonipat</li>
           <li>Mohan Singh Badoli,MLA,Rai</li>
         </ul>
