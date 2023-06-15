@@ -9,7 +9,6 @@ const Highlights = () => {
       <div className="mt-8">
         <h2 className="text-2xl font-bold">Guest Speakers:</h2>
         <ul className="list-disc list-inside mt-4">
-          <li>President of India, Droupadi Murmu</li>
           <li>Chief Minister of Haryana, Manohar Lal Khattar</li>
           <li>Governer of Hariyana, Bandaru Dattatreya</li>
           <li>Sports Minister of Haryana, Sandeep Singh</li>
@@ -19,7 +18,7 @@ const Highlights = () => {
         <h2 className="text-2xl font-bold">Special Performances:</h2>
         <ul className="list-disc list-inside mt-4">
           <li>Dance by MNSS Dance Crew</li>
-          <li>Acrobatics</li>
+          <li>Guests Talks</li>
         </ul>
       </div>
       <div className="mt-8">
