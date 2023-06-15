@@ -14,7 +14,7 @@ const Header = () => {
           Highlights
         </button>
       </Link>
-      <a href="https://lu.ma/ch5ykyrt" target="_blank" rel="noopener noreferrer">
+      <a href="https://lu.ma/mnss" target="_blank" rel="noopener noreferrer">
         <button className="mb-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
           Register
         </button>

@@ -64,7 +64,7 @@ const HomePage = () => {
               </h1>
               <p className="text-xl sm:text-2xl text-white font-balleza p-4 sm:p-8">
                 <a
-                  href="https://lu.ma/ch5ykyrt"
+                  href="https://lu.ma/mnss"
                   className="text-golden underline"
                   target="_blank"
                   rel="noopener noreferrer"
