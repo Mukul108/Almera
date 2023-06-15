@@ -7,7 +7,7 @@ const Highlights = () => {
         Highlights
       </h1>
       <div className="mt-8">
-        <h2 className="text-2xl font-bold">Guest Speakers:</h2>
+        <h2 className="text-2xl font-bold">Guests:</h2>
         <ul className="list-disc list-inside mt-4">
           <li>Chief Minister of Haryana, Manohar Lal Khattar</li>
           <li>Governer of Hariyana, Bandaru Dattatreya</li>
