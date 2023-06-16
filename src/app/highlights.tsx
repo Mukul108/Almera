@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 
 const Highlights = () => {
@@ -12,8 +13,8 @@ const Highlights = () => {
           <li>Hon'ble Governer of Haryana, Bandaru Dattatreya</li>
           <li>Chief Minister of Haryana, Sh. Manohar Lal </li>
           <li>Vice Chancellor of Sports Univesity of Haryana, S.S Deswal </li>
-          <li>Ramesh Kaushik,MP,Sonipat</li>
-          <li>Mohan Singh Badoli,MLA,Rai</li>
+          <li>Ramesh Kaushik, MP, Sonipat</li>
+          <li>Mohan Singh Badoli, MLA, Rai</li>
         </ul>
       </div>
       <div className="mt-8">
