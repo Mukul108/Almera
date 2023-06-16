@@ -35,11 +35,34 @@ const GuestSpeakers = () => {
     );
   };
 
+  
+
   const previousSpeaker = () => {
     setActiveSpeaker((prevIndex) =>
       prevIndex === 0 ? speakers.length - 1 : prevIndex - 1
     );
   };
+
+  <div className="carousel-container">
+  <div className="carousel-item">
+    <img
+      src={`guests/${speakers[activeSpeaker].image}`}
+      alt={speakers[activeSpeaker].name}
+      className="carousel-image"
+    />
+    <div className="carousel-buttons">
+      <button className="carousel-button" onClick={previousSpeaker}>
+        &lt;
+      </button>
+      <button className="carousel-button" onClick={nextSpeaker}>
+        &gt;
+      </button>
+    </div>
+  </div>
+</div>
+
+
+
 
   return (
     <div className="bg-white bg-opacity-20 p-6 sm:p-24 rounded-2xl mt-8 mx-4">
