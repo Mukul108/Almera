@@ -16,7 +16,7 @@ const HomePage = () => {
             alt="Background Image"
             layout="fill"
             objectFit="cover"
-            className="filter brightness-50 blur-sm"
+            className="filter brightness-50 "
           />
         </div>
         <div className="relative z-10 flex flex-col items-center justify-center text-white mt-8">
@@ -60,10 +60,10 @@ const HomePage = () => {
           <div className="bg-white bg-opacity-20 p-6 sm:p-24 flex items-center justify-center rounded-2xl mt-8 mx-4 container-size">
             <div className="text-center">
               <h1 className="text-4xl sm:text-8xl font-Forum text-golden">
-                Principals  Desk
+                Principal's  Desk
               </h1>
               <br /><br />
-               <p className="text-xl font-Forum text-white">I, Principal & Director Col. Ashok Mor &#40;Retd.&#41;, along with the esteemed staff and vibrant student community cordially invites you to the Golden Jubilee Celebration of Mnss, Rai marking 50 glorious years of academic excellence from 1973 to 2023. We extend our heartfelt invitation to commemorate this momentous occasion. Join us on 2nd July 2023 for a nostalgic day filled with captivating events, mesmerizing performances, heartwarming reunions, and a majestic spectacle showcasing our exceptional achievements. Kindly Rigestration Form. Let's honor the cherished past, celebrate the present, and embrace the promising future together.</p>
+               <p className="text-xl font-Forum text-white">I, Principal & Director Col. Ashok Mor &#40;Retd.&#41;, along with the esteemed staff and vibrant students community cordially invite you to the Golden Jubilee Celebration of Mnss, Rai marking 50 glorious years of academic excellence from 1973 to 2023. We extend our heartfelt invitation to commemorate this momentous occasion. Join us on 2nd July 2023 for a nostalgic day filled with captivating events, mesmerizing performances, heartwarming reunions, and a majestic spectacular showcasing our exceptional achievements. Kindly Rigester yourself filling in the the details in the given form. Let's honor the cherished past, celebrate the present, and embrace the promising future together.</p>
     
             </div>
           </div>
