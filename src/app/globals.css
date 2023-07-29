@@ -3,8 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 
 
 :root {
@@ -156,4 +155,14 @@ button:hover {
 .carousel-caption {
   margin-top: 8px;
   text-align: center;
+}
+
+
+.ideas {
+  display: flex;
+  font-size: 3rem;
+  margin-top: 50px;
+  background: url("../../public/background.jpg");
+  width: 1500px;
+  height: 200px;
 }

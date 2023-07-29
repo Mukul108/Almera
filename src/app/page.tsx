@@ -2,9 +2,8 @@
 import React from 'react';
 import Image from "next/image";
 import backgroundImg from "../../public/background.jpg";
-import schoolLogo from "../../public/logo.png";
 import Header from "./header";
-import Highlights from "./highlights";
+import Footer from "./footer";
 
 const HomePage = () => {
   return (
@@ -21,7 +20,7 @@ const HomePage = () => {
         </div>
         <div className="relative z-10 flex flex-col items-center justify-center text-white mt-8">
           <Header />
-          <div className="bg-white bg-opacity-20 p-6 sm:p-24 flex flex-col sm:flex-row items-center justify-center rounded-2xl mt-8 container-margin">
+          <div className="bg-white bg-opacity-40 p-6 sm:p-24 flex flex-col sm:flex-row items-center justify-center rounded-2xl mt-8 container-margin">
             <div className="container-size">
               <h1 className="text-center text-4xl sm:text-9xl font-Forum text-black">
                 Almera
@@ -32,11 +31,20 @@ const HomePage = () => {
               <h3 className="text-center text-4xl sm:text-9xl font-Forum text-black">
               publishing your work
               </h3>
-             
-              
+            
+            <div className='ideas'>
+             ideas
+            </div>
+            <div className='ideas'>
+             Articles
+            </div>
+            <div className='ideas'>
+             Research Paper
+            </div>  
               
             </div>
           </div>
+          <Footer />
         </div>
        
        
