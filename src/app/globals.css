@@ -5,7 +5,6 @@
 
 
 
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -62,6 +61,11 @@ button:hover {
   margin: 0.5rem;
 }
 
+.container-size {
+  max-width: 100%;
+}
+
+
 .carousel-container {
   display: flex;
   flex-direction: column;
@@ -83,6 +87,12 @@ button:hover {
   height: auto;
   border-radius: 8px;
 }
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+}
+
 
 .carousel-caption {
   margin-top: 1rem;
@@ -161,8 +171,7 @@ button:hover {
 .ideas {
   display: flex;
   font-size: 3rem;
-  margin-top: 50px;
+  margin-top: 2rem;
   background: url("../../public/background.jpg");
-  width: 1500px;
-  height: 200px;
+
 }
