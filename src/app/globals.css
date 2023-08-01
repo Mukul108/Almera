@@ -175,3 +175,12 @@ button:hover {
   background: url("../../public/background.jpg");
 
 }
+
+.footer-section {
+  display: flex;
+  gap: 20px;
+}
+
+.section {
+  margin-right: 30px; /* Adjust this value to control the space between Explore and Write */
+}

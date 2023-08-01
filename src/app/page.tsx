@@ -7,7 +7,7 @@ import Footer from "./footer";
 const HomePage = () => {
   return (
     <div className="relative">
-      <div className="absolute top-0 left-0 w-full h-full z-0">
+      <div className="absolute top-0 left-0 w-full h-full z-0" style={{ filter: 'blur(8px)' }}>
         <Image
           src={backgroundImg}
           alt="Background Image"
@@ -18,7 +18,7 @@ const HomePage = () => {
       </div>
       <div className="relative z-10 flex flex-col items-center justify-center text-white mt-8">
         <Header />
-        <div className="bg-white bg-opacity-40 p-6 sm:p-24 flex flex-col sm:flex-row items-center justify-center rounded-2xl mt-8 container-margin w-full sm:max-w-screen-lg">
+        
           <div className="container-size">
             <h1 className="text-center text-4xl sm:text-6xl lg:text-9xl font-Forum text-black">
               Almera
@@ -40,7 +40,7 @@ const HomePage = () => {
               Research Paper
             </div>  
           </div>
-        </div>
+      
         <Footer />
       </div>
     </div>
