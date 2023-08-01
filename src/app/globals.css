@@ -167,8 +167,39 @@ button:hover {
   text-align: center;
 }
 
+.head1 {
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+}
+
+.head2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+}
+
+
 
 .ideas {
+  display: flex;
+  font-size: 3rem;
+  margin-top: 2rem;
+  background: url("../../public/background.jpg");
+
+}
+
+
+.articles {
+  display: flex;
+  font-size: 3rem;
+  margin-top: 2rem;
+  background: url("../../public/background.jpg");
+
+}
+
+.paper {
   display: flex;
   font-size: 3rem;
   margin-top: 2rem;
