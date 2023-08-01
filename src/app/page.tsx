@@ -7,39 +7,43 @@ import Footer from "./footer";
 const HomePage = () => {
   return (
     <div className="relative">
+      {/* Move the absolute positioning to the parent container */}
       <div className="absolute top-0 left-0 w-full h-full z-0" style={{ filter: 'blur(8px)' }}>
         <Image
           src={backgroundImg}
           alt="Background Image"
           layout="fill"
           objectFit="cover"
-          className="filter brightness-100 "
+          className="filter brightness-100"
         />
       </div>
-      <div className="relative z-10 flex flex-col items-center justify-center text-white mt-8">
+      
+      {/* Adjust padding for top space */}
+      <div className="relative z-10 flex flex-col items-center justify-center text-white pt-8">
         <Header />
-        
-          <div className="container-size">
-            <h1 className="text-center text-4xl sm:text-6xl lg:text-9xl font-Forum text-black">
-              Almera
-            </h1>
-            <h2 className="text-center text-4xl sm:text-6xl lg:text-8xl font-Forum text-black">
-              A Decentralized Platform for 
-            </h2>
-            <h3 className="text-center text-4xl sm:text-6xl lg:text-8xl font-Forum text-black">
-              publishing your work
-            </h3>
-            
-            <div className='ideas'>
-              ideas
-            </div>
-            <div className='ideas'>
-              Articles
-            </div>
-            <div className='ideas'>
-              Research Paper
-            </div>  
+        <div className="container-size">
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap" rel="stylesheet"></link>
+          <h1 className="head1">
+            Almera
+          </h1>
+          <h2 className="head2">
+            A Decentralized Platform 
+          </h2>
+          <h3 className="head2">
+            for publishing your work
+          </h3>
+          
+          <div className='ideas'>
+            ideas
           </div>
+          <div className='articles'>
+            Articles
+          </div>
+          <div className='paper'>
+            Research Paper
+          </div>  
+        </div>
       
         <Footer />
       </div>

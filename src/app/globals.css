@@ -170,13 +170,14 @@ button:hover {
 .head1 {
   font-family: 'Sacramento', cursive;
   text-align: center;
-  font-size: 2rem;
+  font-size: 10rem;
   color: #000;
 }
 
 .head2 {
+  font-family: 'Vesper Libre', serif;
   text-align: center;
-  font-size: 2rem;
+  font-size: 5rem;
   color: #000;
 }
 
