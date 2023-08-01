@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <div className="relative">
       {/* Move the absolute positioning to the parent container */}
-      <div className="absolute top-0 left-0 w-full h-full z-0" style={{ filter: 'blur(8px)' }}>
+      <div className="absolute top-0 left-0 w-full h-full z-0" style={{ filter: 'blur(3px)' }}>
         <Image
           src={backgroundImg}
           alt="Background Image"
@@ -23,7 +23,7 @@ const HomePage = () => {
         <Header />
         <div className="container-size">
         <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"></link>
           <h1 className="head1">
             Almera
           </h1>

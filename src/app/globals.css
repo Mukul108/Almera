@@ -175,42 +175,56 @@ button:hover {
 }
 
 .head2 {
-  font-family: 'Vesper Libre', serif;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
-  font-size: 5rem;
+  font-size: 6rem;
   color: #000;
 }
 
 
 
 .ideas {
+  border-radius: 10px;
   display: flex;
   font-size: 3rem;
-  margin-top: 2rem;
-  background: url("../../public/background.jpg");
+  margin-top: 5rem;
+  background: url("../../public/ideas.jpg");
 
 }
 
 
 .articles {
+  border-radius: 10px;
   display: flex;
   font-size: 3rem;
   margin-top: 2rem;
-  background: url("../../public/background.jpg");
+  background: url("../../public/articles.jpg");
 
 }
 
 .paper {
+  border-radius: 10px;
   display: flex;
   font-size: 3rem;
   margin-top: 2rem;
-  background: url("../../public/background.jpg");
+  background: url("../../public/paper.jpg");
+  margin-bottom: 80px;
 
+}
+
+.column {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
 }
 
 .footer-section {
   display: flex;
-  gap: 20px;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  size: 50px;
 }
 
 .section {
