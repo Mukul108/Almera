@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from "next/image";
+import Link from 'next/link';
 import backgroundImg from "../../public/background.jpg";
 import Header from "./header";
 import Footer from "./footer";
@@ -41,6 +42,16 @@ const HomePage = () => {
               <p className="disc">
                 Upload ideas on this box
               </p>
+              <Link href="#Principals Desk" passHref>
+                <button className="read-button">
+                 Read
+                </button>
+               </Link>
+               <Link href="#Principals Desk" passHref>
+                <button className="read-button">
+                 Write
+                </button>
+               </Link>
             </div>
           </div>
           <div className='articles'>
@@ -50,6 +61,16 @@ const HomePage = () => {
               <p className="disc">
                 Upload ideas on this box
               </p>
+              <Link href="#Principals Desk" passHref>
+                <button className="read-button">
+                 Read
+                </button>
+               </Link>
+               <Link href="#Principals Desk" passHref>
+                <button className="read-button">
+                 Write
+                </button>
+               </Link>
             </div>
           </div>
           <div className='paper'>
@@ -59,6 +80,16 @@ const HomePage = () => {
               <p className="disc">
                 Upload ideas on this box
               </p>
+              <Link href="#Principals Desk" passHref>
+                <button className="read-button">
+                 Read
+                </button>
+               </Link>
+               <Link href="#Principals Desk" passHref>
+                <button className="read-button">
+                 Write
+                </button>
+               </Link>
           </div>
           </div>  
         </div>

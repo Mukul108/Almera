@@ -229,6 +229,17 @@ button:hover {
 
 }
 
+.read-button {
+  border-radius: 10px;
+  display: flex;
+  font-size: 3rem;
+  background: url("../../public/paper.jpg");
+}
+
+
+
+
+
 .column {
   font-size: 1.5rem;
   color: rgb(255, 255, 255);
