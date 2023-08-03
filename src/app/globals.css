@@ -167,6 +167,13 @@ button:hover {
   text-align: center;
 }
 
+.header {
+  font-size: 1.5rem;
+  gap: 50px;
+}
+
+
+
 .head1 {
   font-family: 'Sacramento', cursive;
   text-align: center;
@@ -192,6 +199,16 @@ button:hover {
 
 }
 
+.box-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 3rem;
+}
+
+.disc {
+  font-size: 2rem;
+}
+
 
 .articles {
   border-radius: 10px;
@@ -215,6 +232,12 @@ button:hover {
 .column {
   font-size: 1.5rem;
   color: rgb(255, 255, 255);
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  gap: 20px;
 }
 
 .footer-section {

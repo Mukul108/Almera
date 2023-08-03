@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <div className=" flex flex-wrap justify-center">
+    <div className="header">
       <Link href="#Principals Desk" passHref>
         <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
           About
@@ -22,7 +22,7 @@ const Header = () => {
       </Link> 
       <Link href="#highlights" passHref>
         <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
-          Research
+          Login
         </button>
       </Link> 
       <Link href="#highlights" passHref>

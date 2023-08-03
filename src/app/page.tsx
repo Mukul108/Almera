@@ -35,13 +35,31 @@ const HomePage = () => {
           </h3>
           
           <div className='ideas'>
-            ideas
+            <div className="box-text">
+              Ideas
+              <hr className="w-2/3 sm:w-full border border-golden my-4" />
+              <p className="disc">
+                Upload ideas on this box
+              </p>
+            </div>
           </div>
           <div className='articles'>
-            Articles
+            <div className="box-text">
+              Articles
+              <hr className="w-2/3 sm:w-full border border-golden my-4" />
+              <p className="disc">
+                Upload ideas on this box
+              </p>
+            </div>
           </div>
           <div className='paper'>
-            Research Paper
+          <div className="box-text">
+              Paper
+              <hr className="w-2/3 sm:w-full border border-golden my-4" />
+              <p className="disc">
+                Upload ideas on this box
+              </p>
+          </div>
           </div>  
         </div>
       

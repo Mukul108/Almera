@@ -1,5 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import Dis from "../../public/dis.svg"
+import Git from "../../public/git.svg"
+import Twit from "../../public/twit.svg"
+import insta from "../../public/insta.svg"
 import "./globals.css"; // Import the CSS file for styling
 
 const Footer = () => {
@@ -25,26 +29,22 @@ const Footer = () => {
         <h4>Learn More</h4>
         <ul>
           <li>Team</li>
-          <li>Documentation</li>
           <li>Support us</li>
+          <li>Message</li>
         </ul>
       </div>
-      <div className="column">
-        <ul className="social-icons">
+      <div className="icon">
+        <ul>
           <li>
-            <a href="#">
-              <img src="../dis.svg" alt="Discord" />
-            </a>
+            <Image  src={Dis}/>
           </li>
           <li>
-            <a href="#">
-              <img src="../git.svg" alt="Github" />
-            </a>
+            <Image src={Git} />
           </li>
-          
         </ul>
       </div>
-      
+
+     
     </div>
   );
 };
