@@ -24,7 +24,7 @@ const HomePage = () => {
         <Header />
         <div className="container-size">
         <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"></link>
           <h1 className="head1">
             Almera
           </h1>
@@ -40,8 +40,9 @@ const HomePage = () => {
               Ideas
               <hr className="w-2/3 sm:w-full border border-golden my-4" />
               <p className="disc">
-                Upload ideas on this box
+                Whatever coming to your mind just upload here by clicking write  below, or You wanna explore others ideas click on Read!
               </p>
+              <div className="box-button">
               <Link href="#Principals Desk" passHref>
                 <button className="read-button">
                  Read
@@ -52,6 +53,7 @@ const HomePage = () => {
                  Write
                 </button>
                </Link>
+               </div>
             </div>
           </div>
           <div className='articles'>
@@ -59,8 +61,9 @@ const HomePage = () => {
               Articles
               <hr className="w-2/3 sm:w-full border border-golden my-4" />
               <p className="disc">
-                Upload ideas on this box
+                Let world know your greatness of writing, click on Write! or you want to explore others wisdom, click on read   
               </p>
+              <div className="box-button">
               <Link href="#Principals Desk" passHref>
                 <button className="read-button">
                  Read
@@ -71,6 +74,7 @@ const HomePage = () => {
                  Write
                 </button>
                </Link>
+               </div>
             </div>
           </div>
           <div className='paper'>
@@ -78,8 +82,9 @@ const HomePage = () => {
               Paper
               <hr className="w-2/3 sm:w-full border border-golden my-4" />
               <p className="disc">
-                Upload ideas on this box
+                We knoe you work a lot and forgoted to publish it! just do it Now by clicking on Write or You want to research on others works click on Read.
               </p>
+              <div className="box-button">
               <Link href="#Principals Desk" passHref>
                 <button className="read-button">
                  Read
@@ -90,6 +95,7 @@ const HomePage = () => {
                  Write
                 </button>
                </Link>
+               </div>
           </div>
           </div>  
         </div>

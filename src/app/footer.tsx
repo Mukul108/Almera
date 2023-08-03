@@ -2,13 +2,13 @@ import React from "react";
 import Image from "next/image";
 import Dis from "../../public/dis.svg"
 import Git from "../../public/git.svg"
-import Twit from "../../public/twit.svg"
-import insta from "../../public/insta.svg"
+import logo from "../../public/logo.png"
 import "./globals.css"; // Import the CSS file for styling
 
 const Footer = () => {
   return (
     <div className="footer-section">
+      <Image className="logoimg" src={logo}/>
       <div className="column">
         <h4>Explore</h4>
         <ul>
@@ -43,8 +43,6 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-
-     
     </div>
   );
 };
