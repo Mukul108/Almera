@@ -3,6 +3,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import logo from "../../public/logo.png"
 import About from './page/about';
+import Write from './Write/page';
+import Read from './Read/page';
+
 
 const Header = () => {
   return (
@@ -12,23 +15,23 @@ const Header = () => {
           About
         </button>
       </Link>
-      <Link href="#event-details" passHref>
+      <Link href="Write" passHref>
         <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
           Write
         </button>
       </Link>
       
-      <Link href="#highlights" passHref>
+      <Link href="Read" passHref>
         <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
           Read
         </button>
       </Link> 
-      <Link href="#highlights" passHref>
+      <Link href="#Login" passHref>
         <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
           Login
         </button>
       </Link> 
-      <Link href="#highlights" passHref>
+      <Link href="Contact" passHref>
         <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
           Contact
         </button>
