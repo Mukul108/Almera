@@ -2,11 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from "../../public/logo.png"
+import About from './page/about';
 
 const Header = () => {
   return (
     <div className="header">
-      <Link href="#Principals Desk" passHref>
+      <Link href="About" passHref>
         <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
           About
         </button>
