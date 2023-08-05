@@ -2,9 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from "../../public/logo.png"
-import About from './page/about';
-import Write from './Write/page';
-import Read from './Read/page';
+import About from "../app/About/page";
+import Write from "../app/Write/page";
+import Read from "../app/Read/page";
 
 
 const Header = () => {
