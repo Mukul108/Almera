@@ -2,8 +2,13 @@ import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
 import backgroundImg from "../../../public/About/bg.jpg";
+<<<<<<< HEAD
 import Footer from '../footer';
 import Header from '../header';
+=======
+import Header from "../header";
+import Footer from '../footer';
+>>>>>>> refs/remotes/origin/master
 
 
 const About = () => {
@@ -18,7 +23,18 @@ const About = () => {
             className="filter brightness-100"
            />
           </div>
+<<<<<<< HEAD
           <Header />
+=======
+          <div className="relative z-10 flex flex-col items-center justify-center text-white pt-8">
+            <Header />
+          <div className="bg-white bg-opacity-20 p-6 sm:p-24 flex flex-col sm:flex-row items-center justify-center rounded-2xl mt-8 container-margin">
+           <div className="text-8xl">
+            Team page
+           </div>
+           </div>
+           <Footer />
+>>>>>>> refs/remotes/origin/master
         </div>
          
     )
