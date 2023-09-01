@@ -2,8 +2,8 @@ import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
 import backgroundImg from "../../../public/About/bg.jpg";
-import Footer from '../footer';
-import Header from '../header';
+import Footer from '../Components/footer';
+import Header from '../Components/header';
 
 
 const About = () => {
