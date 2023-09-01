@@ -1,45 +1,106 @@
 import React from 'react';
 import Image from "next/image";
+import Link from 'next/link';
 import backgroundImg from "../../public/background.jpg";
-import Header from "./header";
-import Footer from "./footer";
+import Header from "../app/Components/header";
+import Footer from "../app/Components/footer";
+
+
 
 const HomePage = () => {
   return (
     <div className="relative">
-      <div className="absolute top-0 left-0 w-full h-full z-0" style={{ filter: 'blur(8px)' }}>
+      {/* Move the absolute positioning to the parent container */}
+      <div className="absolute top-0 left-0 w-full h-full z-0" style={{ filter: 'blur(3px)' }}>
         <Image
           src={backgroundImg}
           alt="Background Image"
           layout="fill"
           objectFit="cover"
-          className="filter brightness-100 "
+          className="filter brightness-100"
         />
       </div>
-      <div className="relative z-10 flex flex-col items-center justify-center text-white mt-8">
+      
+      {/* Adjust padding for top space */}
+      <div className="relative z-10 flex flex-col items-center justify-center text-white pt-8">
         <Header />
-        
-          <div className="container-size">
-            <h1 className="text-center text-4xl sm:text-6xl lg:text-9xl font-Forum text-black">
-              Almera
-            </h1>
-            <h2 className="text-center text-4xl sm:text-6xl lg:text-8xl font-Forum text-black">
-              A Decentralized Platform for 
-            </h2>
-            <h3 className="text-center text-4xl sm:text-6xl lg:text-8xl font-Forum text-black">
-              publishing your work
-            </h3>
-            
-            <div className='ideas'>
-              ideas
+        <div className="container-size">
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"></link>
+          <h1 className="head1">
+            Almera
+          </h1>
+          <h2 className="head2">
+            A Decentralized Platform 
+          </h2>
+          <h3 className="head2">
+            for publishing your work
+          </h3>
+          
+          <div className='ideas'>
+            <div className="box-text">
+              Ideas
+              <hr className="w-2/3 sm:w-full border border-golden my-4" />
+              <p className="disc">
+                Whatever coming to your mind just upload here by clicking write  below, or You wanna explore others ideas click on Read!
+              </p>
+              <div className="box-button">
+              <Link href="#Principals Desk" passHref>
+                <button className="read-button">
+                 Read
+                </button>
+               </Link>
+               <Link href="#Principals Desk" passHref>
+                <button className="read-button">
+                 Write
+                </button>
+               </Link>
+               </div>
             </div>
-            <div className='ideas'>
-              Articles
-            </div>
-            <div className='ideas'>
-              Research Paper
-            </div>  
           </div>
+          <div className='articles'>
+            <div className="box-text">
+              Articles
+              <hr className="w-2/3 sm:w-full border border-golden my-4" />
+              <p className="disc">
+                Let world know your greatness of writing, click on Write! or you want to explore others wisdom, click on read   
+              </p>
+              <div className="box-button">
+              <Link href="#Principals Desk" passHref>
+                <button className="read-button">
+                 Read
+                </button>
+               </Link>
+               <Link href="#Principals Desk" passHref>
+                <button className="read-button">
+                 Write
+                </button>
+               </Link>
+               </div>
+            </div>
+          </div>
+          <div className='paper'>
+          <div className="box-text">
+              Paper
+              <hr className="w-2/3 sm:w-full border border-golden my-4" />
+              <p className="disc">
+                We knoe you work a lot and forgoted to publish it! just do it Now by clicking on Write or You want to research on others works click on Read.
+              </p>
+              <div className="box-button">
+              <Link href="#Principals Desk" passHref>
+                <button className="read-button">
+                 Read
+                </button>
+               </Link>
+               <Link href="#Principals Desk" passHref>
+                <button className="read-button">
+                 Write
+                </button>
+               </Link>
+               </div>
+          </div>
+          </div>  
+        </div>
       
         <Footer />
       </div>
