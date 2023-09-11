@@ -45,12 +45,12 @@ const HomePage = () => {
                 Whatever coming to your mind just upload here by clicking write  below, or You wanna explore others ideas click on Read!
               </p>
               <div className="box-button">
-              <Link href="#Principals Desk" passHref>
+              <Link href="#Read" passHref>
                 <button className="read-button">
                  Read
                 </button>
                </Link>
-               <Link href="#Principals Desk" passHref>
+               <Link href="Write" passHref>
                 <button className="read-button">
                  Write
                 </button>
@@ -66,12 +66,12 @@ const HomePage = () => {
                 Let world know your greatness of writing, click on Write! or you want to explore others wisdom, click on read   
               </p>
               <div className="box-button">
-              <Link href="#Principals Desk" passHref>
+              <Link href="Read" passHref>
                 <button className="read-button">
                  Read
                 </button>
                </Link>
-               <Link href="#Principals Desk" passHref>
+               <Link href="Write" passHref>
                 <button className="read-button">
                  Write
                 </button>
@@ -87,12 +87,12 @@ const HomePage = () => {
                 We knoe you work a lot and forgoted to publish it! just do it Now by clicking on Write or You want to research on others works click on Read.
               </p>
               <div className="box-button">
-              <Link href="#Principals Desk" passHref>
+              <Link href="Read" passHref>
                 <button className="read-button">
                  Read
                 </button>
                </Link>
-               <Link href="#Principals Desk" passHref>
+               <Link href="Write" passHref>
                 <button className="read-button">
                  Write
                 </button>
