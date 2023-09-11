@@ -2,8 +2,8 @@ import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
 import backgroundImg from "../../public/background.jpg";
-import Header from "../app/Components/header";
-import Footer from "../app/Components/footer";
+import Header from "./header";
+import Footer from "./footer";
 
 
 
@@ -16,8 +16,8 @@ const HomePage = () => {
           src={backgroundImg}
           alt="Background Image"
           layout="fill"
-          objectFit="cover"
-          className="filter brightness-100"
+          objectFit='cover'
+          className="filter brightness-100 flex"
         />
       </div>
       

@@ -2,7 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
 import backgroundImg from "../../../public/Contact/contact.jpg";
-import Footer from '../Components/footer';
+import Footer from '../footer';
 import Header from '../header';
 
 
