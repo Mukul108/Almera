@@ -11,25 +11,61 @@ const Footer = () => {
       <div className="column">
         <h3>Explore</h3>
         <ul>
-          <li>Ideas</li>
-          <li>Articles</li>
-          <li>Research Papers</li>
+          <li>
+            <a href="Read">
+            Ideas
+            </a>
+          </li>
+          <li>
+            <a href="Read">
+            Articles
+            </a>
+          </li>
+          <li>
+            <a href="Read">
+            Research Paper
+            </a>
+          </li>
         </ul>
       </div>
       <div className="column">
         <h4>Write</h4>
         <ul>
-          <li>Ideas</li>
-          <li>Articles</li>
-          <li>Research Papers</li>
+        <li>
+            <a href="Write">
+            Ideas
+            </a>
+        </li>
+        <li>
+            <a href="Write">
+            Articles
+            </a>
+          </li>
+          <li>
+            <a href="Write">
+            Research Paper
+            </a>
+          </li>
         </ul>
       </div>
       <div className="column">
         <h4>Learn More</h4>
         <ul>
-          <li>Team</li>
-          <li>Support us</li>
-          <li>Message</li>
+        <li>
+            <a href="About">
+            Team
+            </a>
+        </li>
+        <li>
+            <a href="Contact">
+            Message
+            </a>
+          </li>
+        <li>
+            <a href="Contact">
+            Support Us
+            </a>
+        </li>
         </ul>
       </div>
       <div className="icon">
