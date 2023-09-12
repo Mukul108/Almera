@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Dis from "../../../public/dis.svg"
-import Git from "../../../public/git.svg"
-import logo from "../../../public/logo.png"
+import Dis from "../../public/dis.svg"
+import Git from "../../public/git.svg"
+import logo from "../../public/logo.png"
 
 const Footer = () => {
   return (

@@ -29,6 +29,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.relative {
+  display: flex;
+}
+
 h1 {
   color: rgb(228, 200, 124);
   font-family: Georgia, 'Times New Roman', Times, serif;
