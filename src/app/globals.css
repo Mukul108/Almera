@@ -171,14 +171,6 @@ button:hover {
   text-align: center;
 }
 
-.header {
-  display: flex;
-  font-size: 1.5rem;
-  gap: 50px;
-}
-
-
-
 .head1 {
   font-family: 'Sacramento', cursive;
   text-align: center;
@@ -273,11 +265,19 @@ button:hover {
   display: flex;
   gap: 50px;
   margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .logoimg {
   width: 170px;
   height: 165px;
+}
+
+.navlogo{
+  width: 60px;
+  height: 55px;
 }
 
 .social-icons {
@@ -286,4 +286,10 @@ button:hover {
 
 .section {
   margin-right: 30px; /* Adjust this value to control the space between Explore and Write */
+}
+
+/* READ PAGE CSS */
+.read-head-1{
+  color: #49d6d6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

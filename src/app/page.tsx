@@ -23,7 +23,6 @@ const HomePage = () => {
       
       {/* Adjust padding for top space */}
       <div className="relative z-10 flex flex-col items-center justify-center text-white pt-8">
-        <Header />
         <div className="container-size">
         <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"></link>
@@ -102,7 +101,6 @@ const HomePage = () => {
           </div>  
         </div>
       
-        <Footer />
       </div>
     </div>
   );
