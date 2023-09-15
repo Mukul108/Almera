@@ -14,10 +14,10 @@ import {WalletModalProvider
 
 const Header = () => {
   return (
-    <div className="container flex gap-5 w-full justify-center pt-5">
-      <div className='relative'>
+    <div className="container flex gap-5 min-w-full justify-center pt-5  bg-zinc-900">
+      <div className='relative '>
         <Link href="/" passHref>
-          <Image className="navlogo align-top" src={logo} alt="logo"/>
+          <Image className="navlogo align-top" src={logo} width={70} height={60} alt="logo"/>
         </Link>
 
         <Link href="About" passHref>

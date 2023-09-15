@@ -44,8 +44,14 @@ export const Wallet: FC = () => {
         <ConnectionProvider endpoint={endpoint}>
             <WalletProvider wallets={wallets} autoConnect>
                 <WalletModalProvider>
-                    <WalletMultiButton />
-                    <WalletDisconnectButton />
+                    <div className='flex'>
+                        <div>
+                            <WalletMultiButton />
+                        </div>
+                        <div>
+                            <WalletDisconnectButton />
+                        </div>
+                    </div>
                 </WalletModalProvider>
             </WalletProvider>
         </ConnectionProvider>
