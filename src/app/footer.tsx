@@ -1,12 +1,12 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Dis from "../../public/dis.svg"
 import Git from "../../public/git.svg"
 import logo from "../../public/logo.png"
 
 const Footer = () => {
   return (
-    <div className="footer-section">
+    <div className="footer-section bg-zinc-900">
       <Image className="logoimg" src={logo} alt="logo"/>
       <div className="column">
         <h4>Explore</h4>
@@ -71,7 +71,7 @@ const Footer = () => {
       <div className="icon">
         <ul>
           <li>
-            <Image  src={Dis} alt="Discord"/>
+            <Image src={Dis} alt="Discord"/>
           </li>
           <li>
             <a href="https://github.com/psycheai">

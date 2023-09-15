@@ -1,7 +1,7 @@
 import React from 'react';
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from 'next/link';
-import backgroundImg from "../../../public/Contact/contact.jpg";
+import backgroundImg from "../../public/Contact/contact.jpg";
 import Footer from '../footer';
 import Header from '../header';
 

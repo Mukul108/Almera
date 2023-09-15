@@ -1,14 +1,23 @@
+'use client';
 import React from 'react';
 import Link from 'next/link';
 import logo from '../../public/logo.png'
-import Image from 'next/image';
+import Image from "next/legacy/image";
+// import ConnectAndSelectWallet from '../../components/connect_wallet_btn'
+// import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+// import { ConnectAndSelectWallet } from '../components/connect_wallet_btn';
+import { Wallet } from '../../src/Wallet';
+
+import {WalletModalProvider
+    ,WalletDisconnectButton
+    ,WalletMultiButton} from '@solana/wallet-adapter-react-ui';
 
 const Header = () => {
   return (
-    <div className="container flex gap-5 w-full justify-center pt-5">
-      
+    <div className="container flex gap-5 min-w-full justify-center pt-5  bg-zinc-900">
+      <div className='relative '>
         <Link href="/" passHref>
-          <Image className="navlogo align-top  rounded-full hover:bg-white" src={logo} alt="logo"/>
+          <Image className="navlogo align-top rounded-fulll hover:bg-white" src={logo} width={70} height={60} alt="logo"/>
         </Link>
 
         <Link href="About" passHref>
@@ -33,10 +42,16 @@ const Header = () => {
           </button>
         </Link> 
         <Link href="Contact" passHref>
-          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white text-black transition duration-300 ease-in-out">
+          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
             Contact
           </button>
         </Link> 
+        <Link href="" passHref>
+          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
+            Contact
+          </button>
+        </Link>
+      </div>
       </div>
      
 
