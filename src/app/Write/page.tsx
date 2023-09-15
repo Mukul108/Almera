@@ -20,21 +20,21 @@ const Write = () => {
 
     return (
         <div className="relative">
-             <div className="absolute top-0 left-0 w-full h-full z-0">
+             <div className="absolute top-0 left-0 w-full h-full z-0" style={{ filter: 'blur(3px)' }}>
           <Image
             src={backgroundImg}
             alt="Background Image"
             layout="fill"
             objectFit="cover"
-            className="filter brightness-50 "
+            className="filter brightness-100"
           />
         </div>
-        <div className="relative z-10 flex flex-col items-center justify-center text-white mt-8">
+        <div className="relative z-10 flex flex-col items-center justify-center mt-8">
           <div className="className=text-center text-black text-4xl sm:text-5xl">
             Writing Section ...
           </div>
           <hr className="w-2/3 sm:w-full border border-black my-4" />
-        <div className="bg-white bg-opacity-20 p-6 sm:p-24 flex flex-col sm:flex-row items-center justify-center rounded-2xl mt-8">
+        <div className="bg-white bg-opacity-20 p-6 sm:p-24 flex flex-col sm:flex-row items-center justify-center rounded-2xl mt-8 container-margin">
          <form onSubmit={handleSubmit}>
           <input
             className="relative flex rounded-2xl bg-slate-500 flex-col items-center justify-center p-6 mt-4"
@@ -50,7 +50,7 @@ const Write = () => {
             value={idea}
             onChange={(event) => setIdea(event.target.value)}
           ></textarea>
-           <button className="mb-2 mr-2 px-4 py-2 p-6 bg-golden text-black text-sm sm:text-lg rounded-full hover:bg-slate-500 text-black transition duration-300 ease-in-out" type="submit">Submit</button>
+           <button className="mb-2 mr-2 px-4 py-2 p-6 bg-golden text-black text-sm sm:text-lg rounded-full hover:bg-slate-500 transition duration-300 ease-in-out" type="submit">Submit</button>
           </form>
         </div>
         </div>
