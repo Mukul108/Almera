@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from "next/legacy/image";
 import Link from 'next/link';
-import backgroundImg from "../../public/background.jpg";
 import Header from "./header";
+import backgroundImg from "../../public/background.jpg";
 import Footer from "./footer";
 import { PublicKey, Transaction } from "@solana/web3.js";
 import {useWallet} from "@solana/wallet-adapter-react"
@@ -85,7 +85,7 @@ const HomePage = () => {
               Paper
               <hr className="w-2/3 sm:w-full border border-golden my-4" />
               <p className="disc">
-                We knoe you work a lot and forgoted to publish it! just do it Now by clicking on Write or You want to research on others works click on Read.
+                We know you work a lot and forgoted to publish it! just do it Now by clicking on Write or You want to research on others works click on Read.
               </p>
               <div className="box-button">
               <Link href="Read" passHref>

@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer-section bg-zinc-900">
       <Image className="logoimg" src={logo} alt="logo"/>
       <div className="column">
-        <h3>Explore</h3>
+        <h4>Explore</h4>
         <ul>
           <li>
             <a href="Read">
@@ -74,7 +74,9 @@ const Footer = () => {
             <Image src={Dis} alt="Discord"/>
           </li>
           <li>
+            <a href="https://github.com/psycheai">
             <Image src={Git} alt="Github"/>
+            </a>
           </li>
         </ul>
       </div>
