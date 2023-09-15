@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
-import backgroundImg from "../../public/background.jpg";
+
 import Header from "./header";
 import Footer from "./footer";
 
@@ -10,16 +10,7 @@ import Footer from "./footer";
 const HomePage = () => {
   return (
     <div className="relative">
-      {/* Move the absolute positioning to the parent container */}
-      <div className="absolute top-0 left-0 w-full h-full z-0" style={{ filter: 'blur(3px)' }}>
-        <Image
-          src={backgroundImg}
-          alt="Background Image"
-          layout="fill"
-          objectFit='cover'
-          className="filter brightness-100 flex"
-        />
-      </div>
+      
       
       {/* Adjust padding for top space */}
       <div className="relative z-10 flex flex-col items-center justify-center text-white pt-8">
