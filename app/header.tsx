@@ -1,8 +1,12 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
-import logo from '../../public/logo.png'
+import logo from '../public/logo.png'
 import Image from 'next/image';
-
+// import ConnectAndSelectWallet from '../../components/connect_wallet_btn'
+// import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+// import { ConnectAndSelectWallet } from '../components/connect_wallet_btn';
+import { Wallet } from '../src/Wallet';
 const Header = () => {
   return (
     <div className="container flex gap-5 w-full justify-center pt-5">
@@ -36,12 +40,17 @@ const Header = () => {
           <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
             Contact
           </button>
-        </Link> 
-        <Link href="" passHref>
+        </Link>         
+          {/* <button onClick={function} className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
+            Connect Wallet
+          </button> */}
+          <div className='flex-none' >
           <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
-            Contact
+            {/* <WalletMultiButton/> */}
+            {/* <ConnectAndSelectWallet /> */}
+            <Wallet></Wallet>
           </button>
-        </Link>
+          </div>
       </div>
      
 
