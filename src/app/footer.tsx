@@ -1,8 +1,8 @@
 import React from "react";
-import Image from "next/image";
-import Dis from "../public/dis.svg"
-import Git from "../public/git.svg"
-import logo from "../public/logo.png"
+import Image from "next/legacy/image";
+import Dis from "../../public/dis.svg"
+import Git from "../../public/git.svg"
+import logo from "../../public/logo.png"
 
 const Footer = () => {
   return (
@@ -71,7 +71,7 @@ const Footer = () => {
       <div className="icon">
         <ul>
           <li>
-            <Image  src={Dis} alt="Discord"/>
+            <Image src={Dis} alt="Discord"/>
           </li>
           <li>
             <Image src={Git} alt="Github"/>

@@ -1,7 +1,7 @@
 import React from 'react';
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from 'next/link';
-import backgroundImg from "../public/background.jpg";
+import backgroundImg from "../../public/background.jpg";
 import Header from "./header";
 import Footer from "./footer";
 import { PublicKey, Transaction } from "@solana/web3.js";
@@ -13,7 +13,7 @@ const HomePage = () => {
   return (  
     <div className="relative ">
       {/* Move the absolute positioning to the parent container */}
-      {/* <div className="absolute top-0 left-0 w-full h-full z-0" style={{ filter: 'blur(3px)' }}>
+      <div className="absolute top-0 left-0 w-full h-full z-0" style={{ filter: 'blur(3px)' }}>
         <Image
           src={backgroundImg}
           alt="Background Image"
@@ -21,10 +21,10 @@ const HomePage = () => {
           objectFit='cover'
           className="filter brightness-100 flex"
         />
-      </div> */}
+      </div>
       
       {/* Adjust padding for top space */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-white pt-8 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 h-screen">
+      <div className="relative z-10 flex flex-col items-center justify-center text-white pt-8 ">
         <div className="container-size">
         <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"></link>

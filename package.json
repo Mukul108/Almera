@@ -20,6 +20,7 @@
     "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
     "axios": "^1.5.0",
+    "bigint-buffer": "^1.1.5",
     "codemod": "^0.0.4",
     "encoding": "^0.1.13",
     "encodings": "^1.0.0",
