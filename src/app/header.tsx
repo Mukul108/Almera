@@ -46,12 +46,8 @@ const Header = () => {
             Contact
           </button>
         </Link> 
-        <Link href="" passHref>
-          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
-            Contact
-          </button>
-        </Link>
       </div>
+      <Wallet />
       </div>
      
 
