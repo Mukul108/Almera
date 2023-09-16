@@ -14,38 +14,43 @@ import {WalletModalProvider
 
 const Header = () => {
   return (
-    <div className="container flex gap-5 min-w-full justify-center pt-5  bg-zinc-900">
+    <div className="container flex gap-5 min-w-full justify-center pt-5 pb-5">
       <div className='relative '>
         <Link href="/" passHref>
-          <Image className="navlogo align-top rounded-fulll hover:bg-white" src={logo} width={70} height={60} alt="logo"/>
+          <button className='hover:bg-white rounded-full mb-2 mr-2 px-4 py-2 bg-golden'>
+          <Image className="navlogo align-top " src={logo} width={50} height={50} alt="logo"/>
+          </button>
         </Link>
 
         <Link href="About" passHref>
-          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white text-black transition duration-300 ease-in-out">
+          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-white text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
           About
           </button>
         </Link>
         <Link href="Write" passHref>
-          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white text-black transition duration-300 ease-in-out">
+          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-white text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
             Write
           </button>
         </Link>
         
         <Link href="Read" passHref>
-          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white text-black transition duration-300 ease-in-out">
+          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-white text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
             Read
           </button>
         </Link>
-        <Link href="#Login" passHref>
-          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white text-black transition duration-300 ease-in-out">
+        {/* <Link href="#Login" passHref>
+          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-white text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
             Login
           </button>
-        </Link> 
+        </Link>  */}
         <Link href="Contact" passHref>
-          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-darkgolden text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
+          <button className="mb-2 mr-2 px-4 py-2 bg-golden text-white text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
             Contact
           </button>
         </Link> 
+        <div>
+          <Wallet/>
+        </div>
       </div>
       <Wallet />
       </div>

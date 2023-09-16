@@ -6,8 +6,8 @@ import logo from "../../public/logo.png"
 
 const Footer = () => {
   return (
-    <div className="footer-section bg-zinc-900">
-      <Image className="logoimg" src={logo} alt="logo"/>
+    <div className="footer-section">
+      <Image className="logoimg" src={logo} height={250} width={250} alt="logo"/>
       <div className="column">
         <h4>Explore</h4>
         <ul>
