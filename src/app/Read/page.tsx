@@ -1,7 +1,7 @@
 import Header from "../header";
 import Footer from "../footer";
 import Image from "next/legacy/image";
-import backgroundImg from "../../public/paper.jpeg";
+import backgroundImg from "../../../public/paper.jpeg";
 
 
 const Read = () => {
