@@ -20,7 +20,7 @@ const About = () => {
         </div>
         <div className="relative z-10 flex flex-col items-center justify-center mt-8">
         <div className="bg-white bg-opacity-20 p-6 sm:p-24 flex flex-col sm:flex-row items-center justify-center rounded-2xl mt-8 container-margin">
-
+       hello
         </div>
         </div>
         </div>
