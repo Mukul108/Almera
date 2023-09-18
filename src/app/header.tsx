@@ -52,7 +52,6 @@ const Header = () => {
           <Wallet/>
         </div>
       </div>
-      <Wallet />
       </div>
      
 
