@@ -48,9 +48,7 @@ export const Wallet: FC = () => {
                         <div>
                             <WalletMultiButton />
                         </div>
-                        <div>
-                            <WalletDisconnectButton />
-                        </div>
+                        
                     </div>
                 </WalletModalProvider>
             </WalletProvider>
