@@ -6,7 +6,6 @@ import dp from "../../../public/About/da.png"
 import dp2 from "../../../public/About/me.png"
 import Footer from '../footer';
 import Header from "../header";
-import Ani from "../../components/lotties/ani";
 import styles from './About.module.css'; 
 
 
@@ -51,7 +50,6 @@ const About = () => {
     <p>Welcome to the future. Welcome to the blockchain-powered revolution in content publication. Welcome to Almera.🛡️</p>
 
             </div>
-            <Ani />
           </div>
         </div>
 
