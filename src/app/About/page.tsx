@@ -1,9 +1,12 @@
+'use client'
 import React from 'react';
 import Image from "next/legacy/image";
 import Link from 'next/link';
+import Lottie from 'lottie-react';
 import backgroundImg from "../../../public/About/bg.jpg";
 import dp from "../../../public/About/da.png"
 import dp2 from "../../../public/About/me.png"
+import Animation from "../../styles/ani2.json"
 import Footer from '../footer';
 import Header from "../header";
 import styles from './About.module.css'; 
@@ -23,7 +26,6 @@ const About = () => {
         />
       </div>
       <div className={styles.content}>
-      
         <div className={styles.contentWrapper}>
           <div className={styles.teamInfo}>
           </div>
@@ -48,7 +50,6 @@ const About = () => {
     <p>Join us at Team Psyche, and together, lets liberate knowledge from the constraints of centralization. Our platform is more than just a place to publish—its a catalyst for change, a monument to your brilliance, and a gateway to a decentralized world of ideas.</p>
 
     <p>Welcome to the future. Welcome to the blockchain-powered revolution in content publication. Welcome to Almera.🛡️</p>
-
             </div>
           </div>
         </div>

@@ -4,6 +4,8 @@ import { useState } from 'react';
 import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
+import Lottie from 'lottie-react';
+import Animation from "../../styles/ani.json"
 import backgroundImg from "../../../public/paper.jpeg";
 import secondary from '../../styles/secondary.module.css'
 import Header from '../header';
@@ -64,6 +66,7 @@ const Write = () => {
           ></textarea>
            <button className="mb-2 mr-2 px-4 py-2  bg-golden text-black text-sm sm:text-lg rounded-full hover:bg-slate-500 transition duration-300 ease-in-out mt-8 hover:text-stone-800" type="submit">Submit</button>
           </form>
+          <Lottie animationData={Animation} />
         </div>
         <Footer/>
         </div>
