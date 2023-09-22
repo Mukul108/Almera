@@ -1,5 +1,5 @@
 'use client'
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from "next/legacy/image";
 import Link from 'next/link';
 import Lottie from 'lottie-react';
@@ -12,7 +12,16 @@ import Header from "../header";
 import styles from './About.module.css'; 
 
 
+
 const About = () => {
+  const teamMembers = [
+    {
+      name: 'Mukul',
+      description: 'founder',
+      image: 'About/me.png',
+    }
+  ];
+
   return (
     <div className={styles.container}>
       <Header />
@@ -27,8 +36,6 @@ const About = () => {
       </div>
       <div className={styles.content}>
         <div className={styles.contentWrapper}>
-          <div className={styles.teamInfo}>
-          </div>
           <div className={styles.images}>
             <div className={styles.desc}>
             <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"></link>
@@ -53,7 +60,27 @@ const About = () => {
             </div>
           </div>
         </div>
-
+      </div>
+      <div className={styles.content}>
+          <div className={styles.desch}>
+            Team
+          </div>
+          <div className={styles.team}>
+            <div className={styles.desc}>
+            <p><strong>"We are Team Psyche, fueled by an insatiable hunger to craft cutting-edge technology that empowers and enriches the lives of every inhabitant of our planet." 🚀🌍💡</strong></p>
+          </div>
+          <div className="about-page">
+      <h1 className={styles.desch}>About Us</h1>
+      <div className="team-members">
+        {teamMembers.map((member, index) => (
+          <div className="team-member" key={index}>
+            <img src={member.image} alt={member.name} />
+            <p>{member.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+        </div>
       </div>
           <Footer />
     </div>
