@@ -67,7 +67,7 @@ const About = () => {
           </div>
           <div className={styles.team}>
             <div className={styles.desc}>
-            <p><strong>"We are Team Psyche, fueled by an insatiable hunger to craft cutting-edge technology that empowers and enriches the lives of every inhabitant of our planet." 🚀🌍💡</strong></p>
+            <p><strong>We are Team Psyche, fueled by an insatiable hunger to craft cutting-edge technology that empowers and enriches the lives of every inhabitant of our planet. 🚀🌍💡</strong></p>
           </div>
           <div className="about-page">
       <h1 className={styles.desch}>About Us</h1>
