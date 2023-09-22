@@ -1,0 +1,39 @@
+.title {
+    display: flex;
+    background: url(../../../public//ideas.jpg);
+    border-radius: 20px;
+    width: 83.333333%;
+    padding: 20px;
+    gap: 20px;
+}
+.descb {
+    display: flex;
+    margin-top: 20px;
+    background: url(../../../public/ideas.jpg);
+    border-radius: 20px;
+    width: 83.333333%;
+    padding: 20px;
+    gap: 20px;
+}
+
+.btn {
+    display: flex;
+    margin-top: 20px;
+    background: url(../../../public//ideas.jpg);
+    border-radius: 20px;
+    width: 20%;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.articles {
+    display: flex;
+    background: url(../../../public/paper.jpeg);
+    border-radius: 20px;
+    width: 85%;
+    padding: 20px;
+    font-size: 2rem;
+    color: white;
+    gap: 20px;
+}

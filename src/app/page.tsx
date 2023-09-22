@@ -47,27 +47,6 @@ const HomePage = () => {
                 Whatever coming to your mind just upload here by clicking write  below, or You wanna explore others ideas click on Read!
               </p>
               <div className="box-button">
-              <Link href="#Read" passHref>
-                <button className="read-button">
-                 Read
-                </button>
-               </Link>
-               <Link href="Write" passHref>
-                <button className="read-button">
-                 Write
-                </button>
-               </Link>
-               </div>
-            </div>
-          </div>
-          <div className='articles'>
-            <div className="box-text">
-              Articles
-              <hr className="w-2/3 sm:w-full border border-golden my-4" />
-              <p className="disc">
-                Let world know your greatness of writing, click on Write! or you want to explore others wisdom, click on read   
-              </p>
-              <div className="box-button">
               <Link href="Read" passHref>
                 <button className="read-button">
                  Read
@@ -81,6 +60,27 @@ const HomePage = () => {
                </div>
             </div>
           </div>
+          {/* <div className='articles'>
+            <div className="box-text">
+              Articles
+              <hr className="w-2/3 sm:w-full border border-golden my-4" />
+              <p className="disc">
+                Let world know your greatness of writing, click on Write! or you want to explore others wisdom, click on read   
+              </p>
+              <div className="box-button">
+              <Link href="Read" passHref>
+                <button className="read-button">
+                 Read
+                </button>
+               </Link>
+               <Link href="Write/#article" passHref>
+                <button className="read-button">
+                 Write
+                </button>
+               </Link>
+               </div>
+            </div>
+          </div> */}
           <div className='paper'>
           <div className="box-text">
               Paper

@@ -1,15 +1,27 @@
-import React from 'react';
+'use client'
+import React, { useState, useEffect } from 'react';
 import Image from "next/legacy/image";
 import Link from 'next/link';
+import Lottie from 'lottie-react';
 import backgroundImg from "../../../public/About/bg.jpg";
 import dp from "../../../public/About/da.png"
 import dp2 from "../../../public/About/me.png"
+import Animation from "../../styles/ani2.json"
 import Footer from '../footer';
 import Header from "../header";
 import styles from './About.module.css'; 
 
 
+
 const About = () => {
+  const teamMembers = [
+    {
+      name: 'Mukul',
+      description: 'founder',
+      image: 'About/me.png',
+    }
+  ];
+
   return (
     <div className={styles.container}>
       <Header />
@@ -23,10 +35,7 @@ const About = () => {
         />
       </div>
       <div className={styles.content}>
-      
         <div className={styles.contentWrapper}>
-          <div className={styles.teamInfo}>
-          </div>
           <div className={styles.images}>
             <div className={styles.desc}>
             <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"></link>
@@ -48,13 +57,32 @@ const About = () => {
     <p>Join us at Team Psyche, and together, lets liberate knowledge from the constraints of centralization. Our platform is more than just a place to publish—its a catalyst for change, a monument to your brilliance, and a gateway to a decentralized world of ideas.</p>
 
     <p>Welcome to the future. Welcome to the blockchain-powered revolution in content publication. Welcome to Almera.🛡️</p>
-
             </div>
           </div>
         </div>
-
       </div>
-      <Footer />
+      <div className={styles.content}>
+          <div className={styles.desch}>
+            Team
+          </div>
+          <div className={styles.team}>
+            <div className={styles.desc}>
+            <p><strong>"We are Team Psyche, fueled by an insatiable hunger to craft cutting-edge technology that empowers and enriches the lives of every inhabitant of our planet." 🚀🌍💡</strong></p>
+          </div>
+          <div className="about-page">
+      <h1 className={styles.desch}>About Us</h1>
+      <div className="team-members">
+        {teamMembers.map((member, index) => (
+          <div className="team-member" key={index}>
+            <img src={member.image} alt={member.name} />
+            <p>{member.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+        </div>
+      </div>
+          <Footer />
     </div>
   );
 };
