@@ -20,12 +20,10 @@ const Read = () => {
             </div>
             <div className="relative flex flex-col justify-center items-center w-full pt-8 text-white">
                 <Header/>
-                <div className="font-bold text-4xl pt-5 pb-5">
-                    <Lottie animationData={Animation} />
-                    {/* <div>
-                        <Read_items/>
-                    </div> */}
+                <div className="font-bold text-4xl pt-5 pb-5 flex">
+                    <p className="h-full justify-center ">Explore New Ideas...</p>
                 </div>
+                        <Read_items/>
                 <Footer/>
             </div>
         </div>
