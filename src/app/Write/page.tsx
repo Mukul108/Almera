@@ -1,10 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
-import { useState } from 'react';
-import React from 'react';
+import React,  { useState } from 'react';
 import Image from "next/image";
 import Lottie from 'lottie-react';
-import Link from 'next/link';
 import backgroundImg from "../../../public/paper.jpeg";
 import secondary from '../../styles/secondary.module.css'
 import Header from '../header';
@@ -12,20 +10,57 @@ import Footer from '../footer';
 import Animation from "../../styles/ani.json"
 import Animation2 from "../../styles/ani3.json"
 import styles from './Write.module.css'; 
-
+import axios from 'axios' 
 
 const Write = () => {
+
+  const underdogApiEndpoint = "https://devnet.underdogprotocol.com";
+  const config = {
+      headers: { Authorization: `Bearer ${`b08742996a48a9.836e09444ac944f48b0fce2b8f29a6c3`}` }
+  };
   
   const [title, setTitle] = useState('');
-  
   const [idea, setIdea] = useState('');
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    setTitle('');
-    setIdea('');
-
+  const handleTitleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setTitle(e.target.value);
   };
+
+  const handleIdeaChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setIdea(e.target.value);
+  };
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    // Here, 'name' and 'email' contain the values of the input fields
+    console.log('Name:', title);
+    console.log('Email:', idea);
+  }
+
+  const options = {
+    method: 'POST',
+    url: 'https://devnet.underdogprotocol.com/v2/projects/1/nfts',
+    headers: {
+      accept: 'application/json',
+      'content-type': 'application/json',
+      authorization: 'Bearer b08742996a48a9.836e09444ac944f48b0fce2b8f29a6c3'
+    },
+    data: {
+      name: title,
+      symbol: 'UPDG',
+      description: idea,
+      image: 'https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg'
+    }
+  };
+    
+  axios
+  .request(options)
+  .then(function (response) {
+    console.log(response.data);
+  })
+  .catch(function (error) {
+    console.error(error);
+  });
 
     return (
         <div className="relative justify-center">
@@ -52,15 +87,15 @@ const Write = () => {
             type="text"
             placeholder="Enter Title"
             value={title}
-            onChange={(event) => setTitle(event.target.value)}
+            onChange={handleTitleChange}
           />
           <textarea
             className={styles.descb}
-            placeholder="Description of your Idea"
+            placeholder="Tell us about your idea..."
             value={idea}
-            onChange={(event) => setIdea(event.target.value)}
+            onChange={handleIdeaChange}
           ></textarea>
-           <button className={styles.btn} type="submit">Submit</button>
+           <button className={styles.btn} type="submit" >Submit</button>
            <Lottie animationData={Animation} />
           </form>
         </div>

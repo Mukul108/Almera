@@ -1,0 +1,54 @@
+{
+    "results": [
+      {
+        "id": 1,
+        "projectId": 1,
+        "mintAddress": "9RmAnBpfXqxFhbQpVkyEgDqJg6tPCRSccYgaJZPyAQeG",
+        "ownerAddress": "9CyUfRe5uZi2rouyuuEmaTk9J4BYBXPKC6Wgp3N6woyB",
+        "name": "Dagar",
+        "description": "Import and Use the  in your Next.js page. For example, you can display it on the homepage (pages/index.js).",
+        "image": "https://dev.updg8.com/imgdata/9RmAnBpfXqxFhbQpVkyEgDqJg6tPCRSccYgaJZPyAQeG",
+        "attributes": {}
+      },
+      {
+        "id": 2,
+        "status": "confirmed",
+        "projectId": 1,
+        "mintAddress": "ASCvGiwGAQApcFkmZAZdFA3ksGHCBe4SN34QRaVcjy1o",
+        "ownerAddress": "9CyUfRe5uZi2rouyuuEmaTk9J4BYBXPKC6Wgp3N6woyB",
+        "name": "Dagar2",
+        "symbol": "UP",
+        "description": "Import  in your Next.js page. For example, you can display it on the homepage (pages/index.js). 2",
+        "image": "https://dev.updg8.com/imgdata/ASCvGiwGAQApcFkmZAZdFA3ksGHCBe4SN34QRaVcjy1o",
+        "attributes": {}
+      },
+      {
+        "id": 3,
+        "status": "confirmed",
+        "projectId": 1,
+        "mintAddress": "2GW4ExSJXspWsUFmRD2vu5RfXG9bXvVeMkVs99SQnoqU",
+        "ownerAddress": "9CyUfRe5uZi2rouyuuEmaTk9J4BYBXPKC6Wgp3N6woyB",
+        "name": "Dagar",
+        "symbol": "UPDG",
+        "description": "Added one more nft",
+        "image": "https://dev.updg8.com/imgdata/2GW4ExSJXspWsUFmRD2vu5RfXG9bXvVeMkVs99SQnoqU",
+        "attributes": {
+          "here is the title": "Here will be the desc"
+        }
+      },
+      {
+        "id": 4,
+        "status": "confirmed",
+        "projectId": 1,
+        "mintAddress": "99iyaD2zRi4kNabspo6Q5UxJKawwQLzjYvN3xp2c9yE6",
+        "ownerAddress": "9CyUfRe5uZi2rouyuuEmaTk9J4BYBXPKC6Wgp3N6woyB",
+        "name": "title",
+        "description": "desc",
+        "image": "https://dev.updg8.com/imgdata/99iyaD2zRi4kNabspo6Q5UxJKawwQLzjYvN3xp2c9yE6"
+      }
+    ],
+    "page": 1,
+    "limit": 10,
+    "totalPages": 1,
+    "totalResults": 4
+}
