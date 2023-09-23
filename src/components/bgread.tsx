@@ -1,5 +1,5 @@
 // Core packages
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 /**
  * scss for themes elements should probably have a specific scss for it

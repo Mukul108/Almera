@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import React,  { useState } from 'react';
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Lottie from 'lottie-react';
 import backgroundImg from "../../../public/paper.jpeg";
 import secondary from '../../styles/secondary.module.css'
