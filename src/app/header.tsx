@@ -43,11 +43,11 @@ const Header = () => {
             Login
           </button>
         </Link>  */}
-        <Link href="Contact" passHref>
+        {/* <Link href="Contact" passHref>
           <button className="mb-2 mr-2 px-4 py-2 bg-golden text-white text-sm sm:text-lg rounded-full hover:bg-white transition duration-300 ease-in-out">
             Contact
           </button>
-        </Link> 
+        </Link>  */}
         <div>
           <Wallet/>
         </div>

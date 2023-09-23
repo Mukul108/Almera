@@ -194,7 +194,7 @@ button:hover {
   display: flex;
   font-size: 3rem;
   margin-top: 5rem;
-  background: url("../../public/ideas.jpg");
+  background: rgba(255, 255, 255, 0.37);
 
 }
 
@@ -205,31 +205,17 @@ button:hover {
 }
 
 .disc {
+  font-family: 'PT Serif', serif;
+  color: #ffffff;
+  text-align: start;
   font-size: 2rem;
 }
 
-
-.articles {
-  border-radius: 40px;
-  display: flex;
-  margin-left: 40px;
-  margin-right: 40px;
-  font-size: 3rem;
-  margin-top: 2rem;
-  background: url("../../public/articles.jpg");
-
-}
-
-.paper {
-  border-radius: 40px;
-  display: flex;
-  margin-left: 40px;
-  margin-right: 40px;
-  font-size: 3rem;
-  margin-top: 2rem;
-  background: url("../../public/paper.jpeg");
-  margin-bottom: 80px;
-
+.disc2 {
+  font-family: 'PT Serif', serif;
+  color: #000;
+  font-size: 1.5rem;
+  text-align: start;
 }
 
 .box-button {
@@ -237,16 +223,6 @@ button:hover {
   padding: 10px;
   gap: 10px;
 }
-
-
-.read-button {
-  width: 100%;
-  border-radius: 10px;
-  font-size: 3rem;
-  background: url("../../public/button.jpg");
-}
-
-
 
 
 
@@ -293,4 +269,40 @@ button:hover {
 .read-head-1{
   color: #49d6d6;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.content {
+  justify-content: center;
+  margin-top: 50px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.button {
+  display: inline-block; 
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem; 
+  color: #000000;
+  text-align: center;
+  border-radius: 9999px; 
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+.button:hover {
+  background-color: #ffffff;
+  color: #000000; 
 }

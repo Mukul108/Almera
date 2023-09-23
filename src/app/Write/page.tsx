@@ -45,7 +45,7 @@ const Write = () => {
             Your Writing Section ...
           </div>
           <hr className="w-full sm:w-full border border-black my-4" />
-        <div id="ideas" className="bg-white bg-opacity-20 sm:p-24 flex flex-col sm:flex-row rounded-2xl w-full min-h-fit">
+        <div id="ideas" className="bg-white bg-opacity-20 sm:p-24 flex flex-col sm:flex-row rounded-2xl w-full min-h-fit ml-10 mr-10">
          <form onSubmit={handleSubmit} className='w-full'>
           <input
             className={styles.title}
@@ -64,7 +64,7 @@ const Write = () => {
            <Lottie animationData={Animation} />
           </form>
         </div>
-        <div id="article" className="bg-white mt-10 bg-opacity-20 sm:p-24 flex flex-col sm:flex-row rounded-2xl w-full min-h-fit">
+        <div id="article" className="bg-white mt-10 bg-opacity-20 sm:p-24 flex flex-col sm:flex-row rounded-2xl w-full min-h-fit ml-10 mr-10">
           <div className={styles.articles}>
              This section will Availabe Soon ......
           </div>

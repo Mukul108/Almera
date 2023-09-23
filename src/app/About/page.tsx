@@ -4,8 +4,6 @@ import Image from "next/legacy/image";
 import Link from 'next/link';
 import Lottie from 'lottie-react';
 import backgroundImg from "../../../public/About/bg.jpg";
-import dp from "../../../public/About/da.png"
-import dp2 from "../../../public/About/me.png"
 import Animation from "../../styles/ani2.json"
 import Footer from '../footer';
 import Header from "../header";
