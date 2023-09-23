@@ -22,45 +22,49 @@ const Write = () => {
   const [title, setTitle] = useState('');
   const [idea, setIdea] = useState('');
 
-  const handleTitleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setTitle(e.target.value);
-  };
+  const [transactionSent, setTransactionSent] = useState(false);
+  // const handleTitleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  //   setTitle(e.target.value);
+  // };
 
-  const handleIdeaChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-    setIdea(e.target.value);
-  };
+  // const handleIdeaChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+  //   setIdea(e.target.value);
+  // };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    setTransactionSent(true);
     e.preventDefault();
-    // Here, 'name' and 'email' contain the values of the input fields
-    console.log('Name:', title);
-    console.log('Email:', idea);
+    // // Here, 'name' and 'email' contain the values of the input fields
+    // console.log('Name:', title);
+    // console.log('Email:', idea);
+    const option = {
+      method: 'POST',
+        url: 'https://devnet.underdogprotocol.com/v2/projects/7/nfts',//main-7
+        headers: {
+          accept: 'application/json',
+          'content-type': 'application/json',
+          authorization: 'Bearer b08742996a48a9.836e09444ac944f48b0fce2b8f29a6c3'
+        },
+        data: {
+          name: title,
+          symbol: 'UPDG',
+          description: idea,
+          image: 'https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg'
+        }
+      }
+      axios
+      .request(option)
+      .then(function (response) {
+        console.log(response.data);
+      })
+      .catch(function (error) {
+        console.error(error);
+      });
   }
+  
+ 
 
-  const options = {
-    method: 'POST',
-    url: 'https://devnet.underdogprotocol.com/v2/projects/1/nfts',
-    headers: {
-      accept: 'application/json',
-      'content-type': 'application/json',
-      authorization: 'Bearer b08742996a48a9.836e09444ac944f48b0fce2b8f29a6c3'
-    },
-    data: {
-      name: title,
-      symbol: 'UPDG',
-      description: idea,
-      image: 'https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg'
-    }
-  };
-    
-  axios
-  .request(options)
-  .then(function (response) {
-    console.log(response.data);
-  })
-  .catch(function (error) {
-    console.error(error);
-  });
+
 
     return (
         <div className="relative justify-center">
@@ -74,7 +78,7 @@ const Write = () => {
           />
           </div>
 
-        <div className="relative z-10 flex flex-col items-center justify-center pt-8">
+        <div className="relative z-10 flex flex-col items-center justify-center pt-8 p-10">
           <Header/>
           <div className="text-center text-black text-4xl sm:text-5xl ">
             Your Writing Section ...
@@ -87,13 +91,13 @@ const Write = () => {
             type="text"
             placeholder="Enter Title"
             value={title}
-            onChange={handleTitleChange}
+            onChange={(event) => setTitle(event.target.value)}
           />
           <textarea
             className={styles.descb}
             placeholder="Tell us about your idea..."
             value={idea}
-            onChange={handleIdeaChange}
+            onChange={(event) => setIdea(event.target.value)}
           ></textarea>
            <button className={styles.btn} type="submit" >Submit</button>
            <Lottie animationData={Animation} />

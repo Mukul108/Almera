@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 import Header from "../header";
 import Footer from "../footer";
 import Image from "next/legacy/image";
@@ -24,7 +24,7 @@ const Read = () => {
                 <div className="relative flex flex-col justify-center items-center w-full pt-8 text-white">
                     <Header/>
                     <div className="font-bold text-4xl pt-5 pb-5 flex">
-                        <p className="h-full justify-center ">Explore New Ideas...</p>
+                        <p className={read.head}>Explore New Ideas...</p>
                     </div>
                     <div className="w-full justify-center items-center">
                             <Read_items/>

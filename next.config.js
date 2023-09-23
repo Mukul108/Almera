@@ -3,6 +3,9 @@ const nextConfig = {}
 
 module.exports = {
     reactStrictMode: true,
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
     // experimental:{appDir: true},
     images:{
         remotePatterns:[

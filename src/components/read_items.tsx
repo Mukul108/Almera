@@ -15,7 +15,7 @@ export default async function read_items() {
     };
     const options = {
         method: 'GET',
-        url: 'https://devnet.underdogprotocol.com/v2/projects/1/nfts',
+        url: 'https://devnet.underdogprotocol.com/v2/projects/7/nfts', //main-7
         params: {limit: '100'},
         headers: {
           accept: 'application/json',
