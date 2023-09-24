@@ -7,7 +7,7 @@ import backgroundImg from "../../../public/About/bg.jpg";
 import Animation from "../../styles/ani2.json"
 import Footer from '../footer';
 import Header from "../header";
-import styles from './About.module.css'; 
+import styles from '../../styles/About.module.css'; 
 
 
 
